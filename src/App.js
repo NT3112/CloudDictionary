@@ -22,7 +22,8 @@ function App() {
 
     try {
       const response = await fetch(
-        `https://your-api-id.execute-api.region.amazonaws.com/define?word=${word}`
+        
+        `https://q5w9b48tol.execute-api.us-east-1.amazonaws.com/prod/dictionary?word=${word}`
       );
       const data = await response.json();
 
